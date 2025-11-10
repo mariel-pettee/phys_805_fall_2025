@@ -1,0 +1,33 @@
+[project]
+name = "phys-805-fall-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "deepsnap>=0.2.1",
+    "glob2>=0.7",
+    "ipykernel>=6.31.0",
+    "ipywidgets>=8.1.7",
+    "livelossplot>=0.5.6",
+    "matplotlib>=3.9.4",
+    "nbformat>=5.10.4",
+    "networkx>=3.2.1",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+    "setuptools>=80.9.0",
+    "tables>=3.9.2",
+    "torch>=2.8.0",
+    "torch-geometric>=2.6.1",
+    "tqdm>=4.67.1",
+    "uproot>=5.6.8",
+    "wandb>=0.22.3",
+]
+
+[tool.uv.workspace]
+members = [
+    "in_class_work/astroclip",
+]
