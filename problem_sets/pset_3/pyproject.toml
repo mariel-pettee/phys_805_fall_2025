@@ -1,0 +1,35 @@
+[project]
+name = "pset-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "astropy>=6.1.7",
+    "boto3==1.28.17",
+    "datasets>=4.4.1",
+    "dotenv>=0.9.9",
+    "fvcore>=0.1.5.post20221221",
+    "h5py>=3.15.1",
+    "huggingface-hub>=1.1.4",
+    "iopath>=0.1.10",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "jaxtyping>=0.3.3",
+    "joblib>=1.5.2",
+    "lightning==2.3.3",
+    "matplotlib>=3.10.7",
+    "networkx>=3.4.2",
+    "numpy==1.26.4",
+    "omegaconf>=2.3.0",
+    "pyarrow>=22.0.0",
+    "pycairo>=1.29.0",
+    "pyvis>=0.3.2",
+    "sbi>=0.25.0",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.2",
+    "torch==2.0.0",
+    "torchmetrics==0.10.3",
+    "torchvision>=0.15.1",
+    "wandb>=0.23.0",
+]
